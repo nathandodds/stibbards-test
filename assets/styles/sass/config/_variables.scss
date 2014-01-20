@@ -1,0 +1,40 @@
+/*
+
+CONFIG = STYLES VARIABLES
+-------------------------
+
+*/
+
+// Base
+$base-font-family: arial;
+$base-font-size: 16px;
+$line-height-ratio: 1.4;
+
+// Grid margin gaps between each column
+$grid-margin: 8px;
+
+// Nav settings
+$nav-font-color: #333333;
+
+$nav-fixed: false !default;
+
+$nav-height: 70px !default;
+$subnav-height: 50px !default;
+
+$subnav-toggle: true !default;
+$subnav-hover: false !default;
+
+//Brand
+$brand-colour: #ED1B24;
+
+// Containers
+$container-padding: 8px;
+$container-width: 1030px !default;
+$wrapper-width: 100% !default;
+
+// Errors
+$error-bgcolour: #ED1B24;
+$error-colour: #FFF;
+
+// Sprite 
+$sprite-width: 383px; // This is the size of the sprite.png

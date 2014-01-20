@@ -1,0 +1,51 @@
+.nav {
+	background: url("../images/nav-background.png");
+}
+
+.navigation__logo {
+	a {
+		display: block;
+		height: 121px;
+		width: 383px;
+		margin: auto;
+		margin-bottom: 1.5em;
+		@include img-replace;
+
+		@include sprite (0 0);
+
+	}
+}
+
+.nav-links {
+	margin: 0;
+	padding-left: 1em;
+
+	li {
+		display: inline-block;
+		font-family: 'crimson-regular';
+		font-size: 14px;
+		list-style: none;
+		margin-bottom: 0.25em;
+		position: relative;
+		text-transform: uppercase;
+
+		&:before {
+			color: $nav-font-color;
+			content: '•';
+			font-size: 11px;
+			padding: 0 0.5em 0 0.5em;
+			vertical-align: center;
+		}
+
+		&:first-child {
+			&:before {
+				content: '';
+			}
+		}
+	}
+
+	a {
+		color: $nav-font-color;
+		text-decoration: none;
+	}
+}
