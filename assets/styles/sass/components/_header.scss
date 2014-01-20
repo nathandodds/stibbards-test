@@ -1,0 +1,52 @@
+.homepage-header {
+	background: url("../images/stibbards-header.png") center 0 no-repeat;
+	height: 444px;
+	line-height: 444px;
+	margin: auto;
+	position: relative;
+	//width: 1650px;
+	
+	 &:before {
+		background: url("../images/header-ribbons.png") center 0 no-repeat;
+		bottom: 0;
+		content: '';
+		display: block;
+		height: 129px;
+		left: 0;
+		margin-bottom: -2.4em;
+		position: absolute;
+		width: 100%;
+		z-index: 1;
+	}
+}
+
+.header-text {
+	display: inline-block;
+	width: 100%;
+
+	p {
+		color: #541434;
+		display: block;
+		font-size: 54px;
+		font-family: 'crimson-regular';
+		line-height: normal;
+		text-align: center;
+	}
+
+	.header-title {
+		padding: 10px 20px 5px;
+		background: url(../images/bg-transparent.png) 0 0 repeat;
+		color: #541334;
+		text-transform: uppercase;
+		line-height: 1;
+		margin: 0;
+		margin: auto;
+		width: 700px;
+
+
+	&:first-child {
+		margin-top: 3.25em;
+		margin-bottom: 4px;
+		}
+	}
+}

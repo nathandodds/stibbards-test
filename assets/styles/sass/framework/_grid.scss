@@ -33,6 +33,12 @@ If you need to change the way a sector is styled then add a class and style that
 		}
 	}
 
+	.grid__full {
+		@include bp(desktop) {
+			width: 100%;
+		}
+	}
+
 	// Grid half
 	.grid__half {
 		@include bp(desktop) {
