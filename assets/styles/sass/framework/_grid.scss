@@ -11,7 +11,7 @@ If you need to change the way a sector is styled then add a class and style that
 
 @if ($grid) == true {
 	.grid {
-		letter-spacing: -0.28em; // makes our grid items have a true width
+		letter-spacing: -0.32em; // makes our grid items have a true width
 
 		& > * {
 			letter-spacing: normal; // makes all the letter spacing with our grid class have letter spacing of normal

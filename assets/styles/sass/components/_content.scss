@@ -1,3 +1,17 @@
+.grid {
+	&:before {
+		content: '';
+		display: block;
+		height: 52px;
+		position: absolute;
+		width: 47px;
+		right: 50%;
+		top: 110%;
+
+		@include sprite(0 -129px);
+	}
+}
+
 .top-text { /****TEXT AT THE TOP OF THE HOME PAGE****/
 	margin-top: 7em;
 	text-align: center;
@@ -14,17 +28,6 @@
 		font-family: Arial;
 	}
 
-	&:before {
-		content: '';
-		display: block;
-		height: 52px;
-		position: absolute;
-		width: 47px;
-		right: 50%;
-		bottom: -19%;
-
-		@include sprite(0 -129px);
-	}
 }
 
 .home-content { /***BOXED CONTENT***/
@@ -59,5 +62,17 @@
 	img { /***ALL BOXED IMAGES ON THE HOMEPAGE***/
 		border-bottom: 3px solid #541434;
 		width: 100%;
+	}
+}
+
+.content-boxes {
+	padding: 1em 0 3em;
+	letter-spacing: -0.32em !important;
+	list-style: none;
+}
+
+.lower-content {
+	p {
+		padding-bottom: 1.4em;
 	}
 }
