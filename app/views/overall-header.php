@@ -20,4 +20,4 @@
             <?php require "assets/includes/ie-notification.php"; flush(); ?>
             <?php include "assets/includes/navigation.php"; ?>
             <?php include "assets/includes/header.php"; ?>
-            <div class="container content grid">
+            <div class="container content">

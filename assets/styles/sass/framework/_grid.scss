@@ -80,7 +80,7 @@ If you need to change the way a sector is styled then add a class and style that
 	// Grid fifths
 	.grid__fifth {
 		@include bp(desktop) {
-			width: 20%;
+			width: 20%;  /*<----CHANGED THIS TO MAKE THE FOOTER FIT*/
 		}
 	}
 

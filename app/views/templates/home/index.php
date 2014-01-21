@@ -5,95 +5,49 @@
 	</article>
 </section>
 <ul class="grid container content-boxes">
-	<li class="home-content grid__third">
-		<img src="<?php echo DIRECTORY; ?>assets/images/services-image.png" class="content-image" />
-		<h2>Services</h2>
-		<p>We can help arrange every aspect of your loved one’s funeral – from the essential details all the way through to unique, personal tributes.</p>
-		<a href="#">View all our services</a>
-	</li>
-	<li class="home-content grid__third">
-		<img src="<?php echo DIRECTORY; ?>assets/images/wtdn-image.png" class="content-image" />
-		<h2>What to do next</h2>
-		<p>It can be difficult to know what to do next following the death of a loved one. Here, we’ll guide you through the steps you need to take to register a death.</p>
-		<a href="#">Find out more</a>
-	</li>
-	<li class="home-content grid__third">
-		<img src="<?php echo DIRECTORY; ?>assets/images/resources-image.png" class="content-image" />
-		<h2>Resources</h2>
-		<p>We provide a range of carefully selected material including hymns, music and sermons that you can use for free when planning the service.</p>
-		<a href="#">View all our resources</a>
-	</li>
-	<li class="home-content grid__third">
-		<img src="<?php echo DIRECTORY; ?>assets/images/brochure-image.png" class="content-image" />
-		<h2>Our brochure</h2>
-		<p>Our brochure will help guide you through the process of arranging a funeral, step-by-step.</p>
-	</li>
-	<li class="home-content grid__third">
-		<img src="<?php echo DIRECTORY; ?>assets/images/plans.png" class="content-image" />
-		<h2>Funeral Plans</h2>
-		<p>Give yourself and your family peace of mind with a funeral plan that guarantees our services.</p>
-	</li>
-	<li class="home-content grid__third lower-content">
-		<img src="<?php echo DIRECTORY; ?>assets/images/contact.png" class="content-image" />
-		<h2>Contact us</h2>
-		<p>Our staff can offer sensitive advice on all aspects of funeral arrangements.</p>
-	</li>
-</ul>
-
-
-
-
-
-
-
-
-
-<!--
-<div class="grid container">
-	<section class="grid__third">
+	<li class="grid__third">
 		<article class="home-content">
 			<img src="<?php echo DIRECTORY; ?>assets/images/services-image.png" class="content-image" />
 			<h2>Services</h2>
 			<p>We can help arrange every aspect of your loved one’s funeral – from the essential details all the way through to unique, personal tributes.</p>
 			<a href="#">View all our services</a>
 		</article>
-	</section>
-	<section class="grid__third">
+	</li>
+	<li class="grid__third">
 		<article class="home-content">
 			<img src="<?php echo DIRECTORY; ?>assets/images/wtdn-image.png" class="content-image" />
 			<h2>What to do next</h2>
 			<p>It can be difficult to know what to do next following the death of a loved one. Here, we’ll guide you through the steps you need to take to register a death.</p>
 			<a href="#">Find out more</a>
 		</article>
-	</section>
-	<section class="grid__third">
+	</li>
+	<li class="grid__third">
 		<article class="home-content">
 			<img src="<?php echo DIRECTORY; ?>assets/images/resources-image.png" class="content-image" />
 			<h2>Resources</h2>
 			<p>We provide a range of carefully selected material including hymns, music and sermons that you can use for free when planning the service.</p>
 			<a href="#">View all our resources</a>
 		</article>
-	</section>
-	<section class="grid__third">
+	</li>
+	<li class="grid__third lower-content">
 		<article class="home-content">
 			<img src="<?php echo DIRECTORY; ?>assets/images/brochure-image.png" class="content-image" />
 			<h2>Our brochure</h2>
 			<p>Our brochure will help guide you through the process of arranging a funeral, step-by-step.</p>
 		</article>
-	</section>
-	<section class="grid__third">
-		<article class="home-content">
+	</li>
+	<li class="grid__third">
+		<article class="home-content lower-content">
 			<img src="<?php echo DIRECTORY; ?>assets/images/plans.png" class="content-image" />
 			<h2>Funeral Plans</h2>
 			<p>Give yourself and your family peace of mind with a funeral plan that guarantees our services.</p>
 		</article>
-	</section>
-	<section class="grid__third">
+	</li>
+	<li class="grid__third contact-us">
 		<article class="home-content">
 			<img src="<?php echo DIRECTORY; ?>assets/images/contact.png" class="content-image" />
 			<h2>Contact us</h2>
 			<p>Our staff can offer sensitive advice on all aspects of funeral arrangements.</p>
 		</article>
-	</section>
-</div>
-
+	</li>
+</ul>
