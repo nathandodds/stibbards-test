@@ -25,15 +25,16 @@
 		font-family: 'crimson-regular';
 		font-size: 14px;
 		list-style: none;
-		margin-bottom: 0.25em;
+		margin-bottom: 1em;
+		margin-right: -0.25em;
 		position: relative;
 		text-transform: uppercase;
 
 		&:before {
-			color: $nav-font-color;
+			color: #541434;
 			content: '•';
 			font-size: 11px;
-			padding: 0 0.5em 0 0.5em;
+			padding: 0 0.75em 0 0.75em;
 			vertical-align: center;
 		}
 
@@ -47,5 +48,10 @@
 	a {
 		color: $nav-font-color;
 		text-decoration: none;
+
+		&:hover,
+		&:focus {
+			text-decoration: underline;
+		}
 	}
 }

@@ -29,8 +29,8 @@
 			<a href="#">View all our resources</a>
 		</article>
 	</li>
-	<li class="grid__third lower-content">
-		<article class="home-content">
+	<li class="grid__third">
+		<article class="home-content lower-content">
 			<img src="<?php echo DIRECTORY; ?>assets/images/brochure-image.png" class="content-image" />
 			<h2>Our brochure</h2>
 			<p>Our brochure will help guide you through the process of arranging a funeral, step-by-step.</p>
@@ -44,7 +44,7 @@
 		</article>
 	</li>
 	<li class="grid__third contact-us">
-		<article class="home-content">
+		<article class="home-content lower-content">
 			<img src="<?php echo DIRECTORY; ?>assets/images/contact.png" class="content-image" />
 			<h2>Contact us</h2>
 			<p>Our staff can offer sensitive advice on all aspects of funeral arrangements.</p>

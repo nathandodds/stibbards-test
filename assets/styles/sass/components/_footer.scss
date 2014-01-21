@@ -2,6 +2,12 @@
 	background: url("../images/footer-bg.png") 0 0 repeat;
 	position: relative;
 
+	@include retina {
+		background: url("../images/retina/footer-bg_2x.png") 0 0 repeat;
+		background-size: 26px 8px;
+	}
+
+
 	.footer-list__title {
 		color: #541434;
 		font-size: 14px;
@@ -15,8 +21,8 @@
 	}
 
 	.footer-list__untitled {
-			padding-top: 1.6em !important;
-		}
+		padding-top: 1.6em !important;
+	}
 
 	li {
 		list-style: none;
@@ -38,19 +44,22 @@
 }
 
 .footer-images {
-	margin-top: 6em;
-	margin-left: 495px;
+	margin: auto;
+	max-width: $container-width;
 	padding-bottom: 5em;
+	padding-top: 6em;
 	position: relative;
+	text-align: center;
 
 	&:before {
 		content: '';
 		display: block;
 		height: 60px;
+		left: 50%;
+		margin-left: -132px;
 		position: absolute;
+		top: 0;
 		width: 263px;
-		bottom: 125%;
-		right: 61%;
 
 		@include sprite(-60px -140px);
 	}
@@ -94,9 +103,24 @@
 
 		@include sprite (-414px -206px);
 	}
-
-
 }
+
+.storm-logo-img {
+		display: inline-block;
+		height: 17px;
+		margin: 1em 1em;
+		margin-top: 0.75em;
+		float: right;
+		width: 255px;
+		@include img-replace;
+
+		@include sprite (-0px -323px);
+
+		&:hover,
+		&:focus {
+			@include sprite (-0px -349px);
+		}
+	}
 
 
 	

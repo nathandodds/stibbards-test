@@ -22,7 +22,7 @@
 			<li class="footer-list__links"><a href="#">Female funeral directors</a></li>
 			<li class="footer-list__links"><a href="#">Green funerals</a></li>
 			<li class="footer-list__links"><a href="#">Headstones &amp; Memorials</a></li>
-			<li class="footer-list__links"><a href="#">Doves&frasl;Butterflies&frasl;Fireworks</a></li>
+			<li class="footer-list__links"><a href="#">Doves &frasl; Butterflies &frasl; Fireworks</a></li>
 			<li class="footer-list__links"><a href="#">Music</a></li>
 			<li class="footer-list__links"><a href="#">Gowns &amp; Interiors</a></li>
 		</ul>
@@ -53,9 +53,12 @@
 		</ul>
 	</div>
 	<div class="footer-images">
-		<p class="footer-image__nafd"><a href="<?php echo DIRECTORY;?>">National Association of Funeral Directors</a></p>
-		<p class="footer-image__nsaf"><a href="<?php echo DIRECTORY;?>">National Society of Allied &amp; Funeral Directors</a></p>
-		<p class="footer-image__namm"><a href="<?php echo DIRECTORY;?>">National Association of Monumental Masons</a></p>
-		<p class="footer-image__ndc"><a href="<?php echo DIRECTORY;?>">The Natural Death Centre</a></p>
+		<a href="<?php echo DIRECTORY;?>"><p class="footer-image__nafd">National Association of Funeral Directors</p></a>
+		<a href="<?php echo DIRECTORY;?>"><p class="footer-image__nsaf">National Society of Allied &amp; Funeral Directors</p></a>
+		<a href="<?php echo DIRECTORY;?>"><p class="footer-image__namm">National Association of Monumental Masons</p></a>
+		<a href="<?php echo DIRECTORY;?>"><p class="footer-image__ndc">The Natural Death Centre</p></a>
+	</div>
+	<div class="storm-logo">
+		<a href="<?php echo DIRECTORY;?>"><p class="storm-logo-img">Storm Creative<p></a>
 	</div>
 </footer>

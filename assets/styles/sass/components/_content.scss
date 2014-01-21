@@ -32,8 +32,9 @@
 
 .home-content { /***BOXED CONTENT***/
 	background: #fff;
-	margin: 1em 0;
-	border: 1px solid #737373;
+	margin: 0.25em 0;
+	height: 456px;
+	border: 0.5px solid #58595B;
 	border-top: 0;
 	-webkit-box-shadow: 0 1px 3px #000;
 	-moz-box-shadow: 0 1px 3px #000;
@@ -54,14 +55,19 @@
 		font-family: 'crimson-regular';
 		font-size: 14px;
 		padding: 0 3em;
+		margin-bottom: 1em;
+		margin-top: -1em;
 	}
 
 	a {
 		background: #CCBD78;
 		color: #fff;
-		font-size: 12px;
+		display: inline-block;
+		font-size: 14px;
 		font-family: 'crimson-italic';
 		padding: 0.25em 2em;
+		margin-bottom: 1.5em;
+		margin-top: 1.5em;
 		text-decoration: none;
 
 		&:hover,
@@ -82,13 +88,20 @@
 }
 
 .lower-content {
+	height: 303px;
+	margin-bottom: 5.3em;
+
 	p {
-		padding-bottom: 1.4em;
+		padding-bottom: 0.5em;
 	}
 }
 
 .contact-us {
 	p {
 		padding-bottom: 2.75em;
+
+		ie8 {
+			padding-bottom: 0;
+		}
 	}
 }

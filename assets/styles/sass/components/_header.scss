@@ -1,8 +1,10 @@
 .homepage-header {
-	background: url("../images/stibbards-header.png") center 0 no-repeat;
+	//background: url("../images/stibbards-header.png") center 0 no-repeat;
+	background: url("../images/header-bg2.png") center 0 no-repeat;
 	height: 444px;
 	line-height: 444px;
 	margin: auto;
+	//margin-top: -2em;
 	position: relative;
 	
 	 &:before {
@@ -44,7 +46,7 @@
 
 
 	&:first-child {
-		margin-top: 3.25em;
+		margin-top: 2.5em;
 		margin-bottom: 4px;
 		}
 	}
