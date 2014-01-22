@@ -1,5 +1,5 @@
-<article class="top-text__service services-container">
-		<p class="top-text__top-service">If you wish to have a discussion with one of our funeral managers, please don’t hesitate to contact us. We can talk through yours and your loved one’s needs and discuss how we can best celebrate their life. Call 01234 567 890 or contact us below:</p>	
+<article class="top-text__service-cta services-container">
+		<p class="top-text__top-service-cta">If you wish to have a discussion with one of our funeral managers, please don’t hesitate to contact us. We can talk through yours and your loved one’s needs and discuss how we can best celebrate their life. Call 01234 567 890 or contact us below:</p>	
 		<a href="#" class="cta-btn services-container">Contact us today</a>
 </article>
 <div class="cta-container">
@@ -23,3 +23,4 @@
 			</a>
 		</li>
 	</ul>
+</div>

@@ -1,10 +1,19 @@
-.cta-text {
-	p {
+.top-text__service-cta {
+	font-family: 'crimson-italic';
+	margin-top: 7em;
+	position: relative;
+	text-align: center;
+	padding: 0em 2em;	
+
+	.top-text__top-service-cta {
+		color: #58595B;
+		font-size: 18px;
 		font-family: 'crimson-italic';
+		margin-top: 4em;
 	}
 
 	&:before {
-		bottom: 110%;
+		top: -90%;
 		content: '';
 		display: block;
 		height: 52px;
@@ -14,6 +23,18 @@
 	
 		@include sprite(0 -129px);
 	}
+
+	&:after {
+		bottom: -64%;
+		content: '';
+		display: block;
+		height: 9px;
+		position: absolute;
+		right: 35.5%;
+		width: 279px;
+	
+		@include sprite(-325px -321px);
+	}
 }
 
 .cta-btn {
@@ -21,22 +42,12 @@
 	background: #CCBD78;
 	font-family: 'crimson-italic';
 	margin: auto;
-	padding: 0.5em 1em;
+	padding: 0.5em 3em;
 	position: relative;
 	text-decoration: none;
 
 }
 
-.cta-boxes {
-	&:after {
-		bottom: 0%;
-		content: '';
-		display: block;
-		height: 52px;
-		position: absolute;
-		right: 48%;
-		width: 47px;
-	
-		@include sprite(-650px -642px);
-	}
+.cta-boxes{
+	padding-top: 70px;
 }
