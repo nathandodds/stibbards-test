@@ -58,7 +58,7 @@
 		<a href="<?php echo DIRECTORY;?>"><p class="footer-image__namm">National Association of Monumental Masons</p></a>
 		<a href="<?php echo DIRECTORY;?>"><p class="footer-image__ndc">The Natural Death Centre</p></a>
 	</div>
-	<div class="storm-logo">
-		<a href="<?php echo DIRECTORY;?>"><p class="storm-logo-img">Storm Creative<p></a>
+	<div class="storm-logo container">
+		<a href="<?php echo DIRECTORY;?>"><p class="storm-logo-img">Storm Creative</p></a>
 	</div>
 </footer>

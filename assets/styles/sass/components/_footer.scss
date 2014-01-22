@@ -24,10 +24,10 @@
 		padding-top: 1.6em !important;
 	}
 
-	li {
-		list-style: none;
+	li {	
 		font-size: 12px;
 		font-family: 'crimson-regular';
+		list-style: none;
 		text-align: left;
 	}
 
@@ -106,12 +106,12 @@
 }
 
 .storm-logo-img {
-		display: inline-block;
-		height: 17px;
-		margin: 1em 1em;
-		margin-top: 0.75em;
+		display: block;
 		float: right;
-		width: 255px;
+		height: 17px;
+		margin: 2.5em 1.5em;
+		vertical-align: middle;
+		width: 255px;		
 		@include img-replace;
 
 		@include sprite (-0px -323px);

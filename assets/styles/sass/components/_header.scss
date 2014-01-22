@@ -1,10 +1,8 @@
 .homepage-header {
-	//background: url("../images/stibbards-header.png") center 0 no-repeat;
 	background: url("../images/header-bg2.png") center 0 no-repeat;
 	height: 444px;
 	line-height: 444px;
 	margin: auto;
-	//margin-top: -2em;
 	position: relative;
 	
 	 &:before {
@@ -35,13 +33,13 @@
 	}
 
 	.header-title {
-		padding: 10px 20px 5px;
 		background: url(../images/bg-transparent.png) 0 0 repeat;
 		color: #541334;
-		text-transform: uppercase;
+		padding: 10px 20px 5px;
 		line-height: 1;
 		margin: 0;
 		margin: auto;
+		text-transform: uppercase;		
 		width: 700px;
 
 
