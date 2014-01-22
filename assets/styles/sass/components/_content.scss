@@ -1,13 +1,16 @@
+/*********************************
+TEXT AT THE TOP OF THE HOME PAGE
+*********************************/
 
-.top-text { /****TEXT AT THE TOP OF THE HOME PAGE****/
-	margin-top: 7em;
+.top-text {
+	padding-top: 7em;  /*<--too move text / content away from the header*/
 	position: relative;
 	text-align: center;	
 
 	.top-text__top{
 		color: #58595B;
 		font-size: 18px;
-		font-family: 'crimson-italic';
+		font-family: $brand-font-italic;
 	}
 
 	.top-text__bottom {
@@ -17,17 +20,22 @@
 	}
 
 	&:before {
-		bottom: 110%;
 		content: '';
 		display: block;
 		height: 52px;
+		left: 50%;
+		margin-left: -24px;
 		position: absolute;
-		right: 48%;
+		
+		top: 56px;
 		width: 47px;
 	
 		@include sprite(0 -129px);
 	}
 }
+/**********************
+TEXT AT THE TOP OF SERVICES PAGE
+***********************/
 
 .top-text__service {
 	margin-top: 7em;
@@ -38,7 +46,8 @@
 	.top-text__top-service {
 		color: #58595B;
 		font-size: 18px;
-		font-family: 'crimson-italic';
+		font-family: $brand-font-italic;
+		margin: 0em;
 	}
 
 	&:before {
@@ -54,23 +63,27 @@
 	}
 }
 
+/******************
+ALL BOXED CONTENT
+********************/
 .services-content__lower,
 .services-content,
-.home-content { /***BOXED CONTENT***/
+.home-content {
 	background: #fff;
 	border: 0.5px solid #58595B;
 	border-top: 0;
-		-webkit-box-shadow: 0 1px 3px #000;
-		-moz-box-shadow: 0 1px 3px #000;
-		-o-box-shadow: 0 1px 3px #000;
-		-ms-box-shadow: 0 1px 3px #000;
-		box-shadow: 0 1px 3px #000;
 	height: 410px;
 	margin: 0.25em 0;
 
+	-webkit-box-shadow: 0 1px 3px #000;
+	   -moz-box-shadow: 0 1px 3px #000;
+		 -o-box-shadow: 0 1px 3px #000;
+		-ms-box-shadow: 0 1px 3px #000;
+		    box-shadow: 0 1px 3px #000;
+
 	h2 {
 		color: #231F20;
-		font-family: 'crimson-regular';
+		font-family: $brand-font;
 		font-size: 20px;		
 		margin-top: 0.25em;		
 		text-transform: uppercase;
@@ -78,7 +91,7 @@
 
 	p {
 		color: #4D4D4D;
-		font-family: 'crimson-regular';
+		font-family: $brand-font;
 		font-size: 14px;
 		margin-bottom: 1em;
 		margin-top: -1em;
@@ -91,7 +104,7 @@
 		color: #fff;
 		display: inline-block;
 		font-size: 14px;
-		font-family: 'crimson-italic';
+		font-family: $brand-font-italic;
 		margin-bottom: 1em;
 		margin-top: 1em;
 		padding: 0.25em 2em;
@@ -103,27 +116,39 @@
 		}
 	}
 
-	img { /***ALL BOXED IMAGES ON THE HOMEPAGE***/
+/**************************
+ALL BOXED IMAGES HAVE A BOTTOM BORDER
+***************************/
+
+	img {
 		border-bottom: 3px solid #541434;
 		width: 100%;
 	}
 }
 
+/*************************
+BOXED CONTENT AND IMAGES ARE LINKS
+**************************/
+
 .content-link  {
+	display: block;
+	margin: 9px 3px;
 	text-decoration: none;
 }
 
+/***********************
+CONTENT ON SERVICES PAGE
+************************/
+
 .services-content {
-	height: 303px;
 
 	h2 {
 		padding-top: 0.5em;
-		text-decoration: none;
 	}
 
 	p {
 		padding: 1em 7em;
-		text-decoration: none;
+		margin-bottom: 0;
 	}
 
 	a {
@@ -131,16 +156,24 @@
 	}
 }
 
+.services-content,
 .services-content__lower {
 	height: 303px;
-	width: 298px;
+
+	h2 {
+		margin-top: 0.5em;
+	}
 }
 
 .content-boxes {
 	list-style: none;
-	padding: 1em 0 3em;
+	padding: 0em 0 3em;
 	
 }
+
+/*************************
+SMALLER CONTENT BOXES ON THE SERVICES PAGE
+***************************/
 
 .lower-content {
 	height: 303px;
@@ -155,7 +188,7 @@
 	p {
 		padding-bottom: 2.75em;
 
-		ie8 {
+		.ie8 & {
 			padding-bottom: 0;
 		}
 	}

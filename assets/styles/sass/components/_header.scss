@@ -1,6 +1,10 @@
+/************************************************************
+HEADER IS THE SAME THROUGH OUT BUT IMAGES JUST NEEDS CHANGING
+*************************************************************/
+
 .homepage-header {
 	background: url("../images/header-bg2.png") center 0 no-repeat;
-	height: 444px;
+	height: 480px;
 	line-height: 444px;
 	margin: auto;
 	position: relative;
@@ -12,12 +16,15 @@
 		display: block;
 		height: 129px;
 		left: 0;
-		margin-bottom: -2.4em;
 		position: absolute;
 		width: 100%;
 		z-index: 1;
 	}
 }
+
+/********************************
+TEXT IN THE CENTRE OF THE HEADER
+********************************/
 
 .header-text {
 	display: inline-block;
@@ -49,6 +56,9 @@
 		}
 	}
 
+/******************
+SERVICES HEADER
+*******************/
 	.header-title_services {
 
 		background: url(../images/bg-transparent.png) 0 0 repeat;
@@ -69,6 +79,10 @@
 		}
 	}
 }
+
+/**************************************
+IMAGE CHANGES FOR THE SERVICES HEADER
+***************************************/
 
 .header {
 	background: url("../images/services-header.png") center 0 no-repeat;

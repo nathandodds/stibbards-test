@@ -1,6 +1,6 @@
 <nav class="nav">
 	<div class="container">
-		<p class="navigation__logo"><a href="<?php echo DIRECTORY;?>">Logo</a></p>
+		<p class="nav__logo"><a href="<?php echo DIRECTORY;?>">Logo</a></p>
 		<ul class="nav-links">
 			<li><a href="#">About us</a></li>
 			<li><a href="#">What to do next</a></li>

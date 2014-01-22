@@ -1,3 +1,7 @@
+/**********************************************
+CTA  - INCLUDE AS IT IS USED IN MULITPLE PAGES
+***********************************************/
+
 .top-text__service-cta {
 	font-family: 'crimson-italic';
 	margin-top: 7em;
@@ -7,7 +11,7 @@
 
 	.top-text__top-service-cta {
 		color: #58595B;
-		font-size: 18px;
+		font-size: 1.125em; // 18px
 		font-family: 'crimson-italic';
 		margin-top: 4em;
 	}
@@ -17,8 +21,9 @@
 		content: '';
 		display: block;
 		height: 52px;
+		left: 50%;
 		position: absolute;
-		right: 48%;
+		margin-left: -24px;
 		width: 47px;
 	
 		@include sprite(0 -129px);
@@ -29,13 +34,18 @@
 		content: '';
 		display: block;
 		height: 9px;
+		left: 50%;
 		position: absolute;
-		right: 35.5%;
+		margin-left: -139.5px;
 		width: 279px;
 	
 		@include sprite(-325px -321px);
 	}
 }
+
+/*******************
+CONTACT BUTTON
+*******************/
 
 .cta-btn {
 	color: #fff;

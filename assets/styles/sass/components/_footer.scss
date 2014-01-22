@@ -1,3 +1,7 @@
+/***********************
+FOOTER IS APPLYED TO ALL PAGES
+************************/
+
 .footer {
 	background: url("../images/footer-bg.png") 0 0 repeat;
 	position: relative;
@@ -7,6 +11,9 @@
 		background-size: 26px 8px;
 	}
 
+/*****************************
+BIGGER LIST TITLES E.G HOME
+******************************/
 
 	.footer-list__title {
 		color: #541434;
@@ -19,6 +26,10 @@
 	ul {
 		padding: 0 1em 0 1em;
 	}
+
+/********************************************
+LI'S WITHOUT A TITLE NEEDED TO BE PUSHED DOWN
+*********************************************/
 
 	.footer-list__untitled {
 		padding-top: 1.6em !important;
@@ -40,8 +51,11 @@
 			text-decoration: underline;
 		}
 	}
-
 }
+
+/****************************
+IMAGES/SPRITES IN THE FOOTER
+*****************************/
 
 .footer-images {
 	margin: auto;
@@ -64,46 +78,35 @@
 		@include sprite(-60px -140px);
 	}
 
-	.footer-image__nafd {
+	a  {
+
 		display: inline-block;
 		height: 105px;
 		margin: 0 1em;
 		width: 125px;
 		@include img-replace;
+	}
 
+	.footer-image__nafd {
 		@include sprite (0 -206px);
 	}
 
 	.footer-image__nsaf {
-		display: inline-block;
-		height: 105px;
-		margin: 0 1em;
-		width: 125px;
-		@include img-replace;
-
 		@include sprite (-139px -206px);
 	}
 
 	.footer-image__namm {
-		display:inline-block;
-		height: 105px;
-		margin: 0 1em;
-		width: 125px;
-		@include img-replace;
-
 		@include sprite (-282px -206px);
 	}
 
 	.footer-image__ndc {
-		display: inline-block;
-		height: 105px;
-		margin: 0 1em;
-		width: 125px;
-		@include img-replace;
-
 		@include sprite (-414px -206px);
 	}
 }
+
+/********************
+STORM CREATIVE LOGO
+*********************/
 
 .storm-logo-img {
 		display: block;

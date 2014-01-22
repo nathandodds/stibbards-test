@@ -1,8 +1,12 @@
+/*********************
+	NAVIGATION
+***********************/
+
 .nav {
 	background: url("../images/nav-background.png");
 }
 
-.navigation__logo {
+.nav__logo {
 	a {
 		display: block;
 		height: 121px;
@@ -15,6 +19,10 @@
 
 	}
 }
+
+/************************
+	NAVIGATION LINKS
+*************************/
 
 .nav-links {
 	margin: 0;
@@ -44,6 +52,10 @@
 			}
 		}
 	}
+
+/*******************
+	CTA BUTTON
+********************/
 
 	a {
 		color: $nav-font-color;

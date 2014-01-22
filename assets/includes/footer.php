@@ -53,10 +53,10 @@
 		</ul>
 	</div>
 	<div class="footer-images">
-		<a href="<?php echo DIRECTORY;?>"><p class="footer-image__nafd">National Association of Funeral Directors</p></a>
-		<a href="<?php echo DIRECTORY;?>"><p class="footer-image__nsaf">National Society of Allied &amp; Funeral Directors</p></a>
-		<a href="<?php echo DIRECTORY;?>"><p class="footer-image__namm">National Association of Monumental Masons</p></a>
-		<a href="<?php echo DIRECTORY;?>"><p class="footer-image__ndc">The Natural Death Centre</p></a>
+		<a href="<?php echo DIRECTORY;?>" class="footer-image__nafd">National Association of Funeral Directors</p></a>
+		<a href="<?php echo DIRECTORY;?>" class="footer-image__nsaf">National Society of Allied &amp; Funeral Directors</p></a>
+		<a href="<?php echo DIRECTORY;?>" class="footer-image__namm">National Association of Monumental Masons</p></a>
+		<a href="<?php echo DIRECTORY;?>" class="footer-image__ndc">The Natural Death Centre</p></a>
 	</div>
 	<div class="storm-logo container">
 		<a href="<?php echo DIRECTORY;?>"><p class="storm-logo-img">Storm Creative</p></a>
