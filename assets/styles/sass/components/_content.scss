@@ -38,7 +38,7 @@ TEXT AT THE TOP OF SERVICES PAGE
 ***********************/
 
 .top-text__service {
-	margin-top: 7em;
+	margin-top: 8em;
 	position: relative;
 	text-align: center;
 	padding: 0em 2em;	
@@ -121,6 +121,7 @@ ALL BOXED IMAGES HAVE A BOTTOM BORDER
 ***************************/
 
 	img {
+		border: none;
 		border-bottom: 3px solid #541434;
 		width: 100%;
 	}
@@ -194,4 +195,9 @@ SMALLER CONTENT BOXES ON THE SERVICES PAGE
 	}
 }
 
-
+.tel-num {
+	a {
+		color: #4D4D4D;
+		text-decoration: none;
+	}
+}

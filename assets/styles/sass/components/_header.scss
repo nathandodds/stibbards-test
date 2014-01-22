@@ -85,7 +85,7 @@ IMAGE CHANGES FOR THE SERVICES HEADER
 ***************************************/
 
 .header {
-	background: url("../images/services-header.png") center 0 no-repeat;
+	background: url("../images/services-header.jpg") center 0 no-repeat;
 	height: 257px;
 	line-height: 257px;
 	width: 100%;
@@ -94,12 +94,12 @@ IMAGE CHANGES FOR THE SERVICES HEADER
 
 	&:before {
 		background: url("../images/services-ribbons.png") 56% 0 no-repeat;
-		bottom: 0;
+		bottom: -24px;
 		content: '';
 		display: block;
 		height: 129px;
 		left: 0;
-		margin-bottom: -2.4em;
+		//margin-bottom: -2.396em;
 		position: absolute;
 		width: 100%;
 		z-index: 1;

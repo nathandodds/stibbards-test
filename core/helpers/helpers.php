@@ -286,3 +286,4 @@ function get_page()
 
     return ( !!$page ? $page : 'home' );
 }
+
