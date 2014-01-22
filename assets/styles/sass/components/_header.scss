@@ -48,4 +48,46 @@
 		margin-bottom: 4px;
 		}
 	}
+
+	.header-title_services {
+
+		background: url(../images/bg-transparent.png) 0 0 repeat;
+		color: #541334;
+		font-size: 60px;
+		height: 78px;
+		padding: 15px 20px 5px;
+		line-height: 1;
+		margin: 0;
+		margin: auto;
+		text-transform: uppercase;		
+		width: 376px;
+
+
+	&:first-child {
+		margin-top: 1em;
+		margin-bottom: 4px;
+		}
+	}
+}
+
+.header {
+	background: url("../images/services-header.png") center 0 no-repeat;
+	height: 257px;
+	line-height: 257px;
+	width: 100%;
+	margin: auto;
+	position: relative;
+
+	&:before {
+		background: url("../images/services-ribbons.png") 56% 0 no-repeat;
+		bottom: 0;
+		content: '';
+		display: block;
+		height: 129px;
+		left: 0;
+		margin-bottom: -2.4em;
+		position: absolute;
+		width: 100%;
+		z-index: 1;
+	}
 }

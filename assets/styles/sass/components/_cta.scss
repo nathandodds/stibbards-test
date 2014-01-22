@@ -1,0 +1,42 @@
+.cta-text {
+	p {
+		font-family: 'crimson-italic';
+	}
+
+	&:before {
+		bottom: 110%;
+		content: '';
+		display: block;
+		height: 52px;
+		position: absolute;
+		right: 48%;
+		width: 47px;
+	
+		@include sprite(0 -129px);
+	}
+}
+
+.cta-btn {
+	color: #fff;
+	background: #CCBD78;
+	font-family: 'crimson-italic';
+	margin: auto;
+	padding: 0.5em 1em;
+	position: relative;
+	text-decoration: none;
+
+}
+
+.cta-boxes {
+	&:after {
+		bottom: 0%;
+		content: '';
+		display: block;
+		height: 52px;
+		position: absolute;
+		right: 48%;
+		width: 47px;
+	
+		@include sprite(-650px -642px);
+	}
+}

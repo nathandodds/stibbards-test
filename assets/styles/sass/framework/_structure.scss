@@ -28,6 +28,8 @@ STRUCTURE
 @import "components/footer";
 @import "components/header";
 @import "components/content";
+@import "components/cta";
+
 
 
 
@@ -64,6 +66,16 @@ body {
 	@include bp(desktop) {
 		padding: $container-padding;
 	}
+}
+
+.services-container {
+	margin: auto;
+	max-width: 942px;
+}
+
+.cta-container {
+	margin: auto;
+	max-width: 635px;
 }
 
 h1, h2, h3, h4, h5, h6 {

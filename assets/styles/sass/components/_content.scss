@@ -1,5 +1,4 @@
 
-	
 .top-text { /****TEXT AT THE TOP OF THE HOME PAGE****/
 	margin-top: 7em;
 	position: relative;
@@ -30,6 +29,33 @@
 	}
 }
 
+.top-text__service {
+	margin-top: 7em;
+	position: relative;
+	text-align: center;
+	padding: 0em 2em;	
+
+	.top-text__top-service {
+		color: #58595B;
+		font-size: 18px;
+		font-family: 'crimson-italic';
+	}
+
+	&:before {
+		bottom: 140%;
+		content: '';
+		display: block;
+		height: 52px;
+		position: absolute;
+		right: 48%;
+		width: 47px;
+	
+		@include sprite(-270px -320px);
+	}
+}
+
+.services-content__lower,
+.services-content,
 .home-content { /***BOXED CONTENT***/
 	background: #fff;
 	border: 0.5px solid #58595B;
@@ -41,9 +67,6 @@
 		box-shadow: 0 1px 3px #000;
 	height: 410px;
 	margin: 0.25em 0;
-
-	
-
 
 	h2 {
 		color: #231F20;
@@ -86,6 +109,33 @@
 	}
 }
 
+.content-link  {
+	text-decoration: none;
+}
+
+.services-content {
+	height: 303px;
+
+	h2 {
+		padding-top: 0.5em;
+		text-decoration: none;
+	}
+
+	p {
+		padding: 1em 7em;
+		text-decoration: none;
+	}
+
+	a {
+		text-decoration: none;
+	}
+}
+
+.services-content__lower {
+	height: 303px;
+	width: 298px;
+}
+
 .content-boxes {
 	list-style: none;
 	padding: 1em 0 3em;
@@ -110,3 +160,4 @@
 		}
 	}
 }
+
