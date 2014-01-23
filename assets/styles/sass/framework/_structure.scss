@@ -29,6 +29,8 @@ STRUCTURE
 @import "components/header";
 @import "components/content";
 @import "components/cta";
+@import "components/aside";
+
 
 
 
@@ -76,6 +78,11 @@ body {
 .cta-container {
 	margin: auto;
 	max-width: 635px;
+}
+
+.subpage__content-container {
+	margin: auto;
+	max-width: 662px;
 }
 
 h1, h2, h3, h4, h5, h6 {

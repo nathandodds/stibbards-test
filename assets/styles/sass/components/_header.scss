@@ -5,7 +5,7 @@ HEADER IS THE SAME THROUGH OUT BUT IMAGES JUST NEEDS CHANGING
 .homepage-header {
 	background: url("../images/header-bg2.png") center 0 no-repeat;
 	height: 480px;
-	line-height: 444px;
+	line-height: 480px;
 	margin: auto;
 	position: relative;
 	
@@ -23,12 +23,40 @@ HEADER IS THE SAME THROUGH OUT BUT IMAGES JUST NEEDS CHANGING
 }
 
 /********************************
+HEADERS - GENERIC
+********************************/
+
+.header {
+	height: 257px;
+	line-height: 200px;
+	width: 100%;
+	margin: auto;
+	position: relative;
+	text-align: center;
+
+	&:before {
+		background: url("../images/services-ribbons.png") 56% 0 no-repeat;
+		bottom: -24px;
+		content: '';
+		display: block;
+		height: 129px;
+		position: absolute;
+		width: 100%;
+		z-index: 1;
+	}
+}
+
+/********************************
 TEXT IN THE CENTRE OF THE HEADER
 ********************************/
 
 .header-text {
 	display: inline-block;
-	width: 100%;
+	line-height: normal;
+	text-align: center;
+	width: 700px;
+	//vertical-align: middle;
+	//width: 100%;
 
 	p {
 		color: #541434;
@@ -37,29 +65,69 @@ TEXT IN THE CENTRE OF THE HEADER
 		font-family: 'crimson-regular';
 		line-height: normal;
 		text-align: center;
+		vertical-align: middle;
 	}
 
 	.header-title {
 		background: url(../images/bg-transparent.png) 0 0 repeat;
 		color: #541334;
+		display: block;
+		font-size: 60px;
 		padding: 10px 20px 5px;
 		line-height: 1;
 		margin: 0;
 		margin: auto;
-		text-transform: uppercase;		
-		width: 700px;
-
-
-	&:first-child {
-		margin-top: 2.5em;
-		margin-bottom: 4px;
-		}
+		text-transform: uppercase;
+		vertical-align: middle;		
+		
 	}
 
-/******************
-SERVICES HEADER
-*******************/
-	.header-title_services {
+	/*************************************
+		TITLE OF THE SUBPAGE PARENT PAGE
+	**************************************/
+
+	.header__subpage-title {
+		background: url(../images/bg-transparent.png) 0 0 repeat;
+		display: block;
+		font-size: 1em;
+		line-height: 1.6;
+		margin: auto;
+		text-transform: uppercase;
+		width: 137px;
+	}
+
+	/******************
+	SERVICES HEADER
+	*******************/
+	.header-title_services {		
+		width: 376px;
+	}
+}
+
+/**************************************
+IMAGE CHANGES FOR THE SUBPAGES HEADERS
+***************************************/
+
+
+.services-header {
+	background: url("../images/services-header.jpg") center 0 no-repeat;
+}
+
+.cor-header {
+	background: url("../images/cor-header.jpg") center 0 no-repeat;
+	line-height: 225px;
+
+	.header-title {
+		margin-top: 3px;
+		width: 520px;
+	}
+}
+
+/**************************
+CHAPEL OF REST HEADER
+***************************/
+/*
+.header-title__cor {
 
 		background: url(../images/bg-transparent.png) 0 0 repeat;
 		color: #541334;
@@ -70,38 +138,12 @@ SERVICES HEADER
 		margin: 0;
 		margin: auto;
 		text-transform: uppercase;		
-		width: 376px;
+		width: 520px;
 
 
-	&:first-child {
-		margin-top: 1em;
-		margin-bottom: 4px;
+		&:first-child {
+			margin-top: 1em;
+			margin-bottom: 4px;
 		}
 	}
-}
-
-/**************************************
-IMAGE CHANGES FOR THE SERVICES HEADER
-***************************************/
-
-.header {
-	background: url("../images/services-header.jpg") center 0 no-repeat;
-	height: 257px;
-	line-height: 257px;
-	width: 100%;
-	margin: auto;
-	position: relative;
-
-	&:before {
-		background: url("../images/services-ribbons.png") 56% 0 no-repeat;
-		bottom: -24px;
-		content: '';
-		display: block;
-		height: 129px;
-		left: 0;
-		//margin-bottom: -2.396em;
-		position: absolute;
-		width: 100%;
-		z-index: 1;
-	}
-}
+	*/

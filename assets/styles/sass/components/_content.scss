@@ -201,3 +201,73 @@ SMALLER CONTENT BOXES ON THE SERVICES PAGE
 		text-decoration: none;
 	}
 }
+
+/*******************
+SUBPAGE CONTENT
+********************/
+
+.sub-content {
+	margin-top: 4em;
+
+	h1  {
+		color: #541434;
+		font-size: 29px;
+		font-family: 'Times';
+		text-transform: uppercase;
+	}
+
+	.sub-content__top {
+		color: #58595B;
+		font-size: 20px;
+		font-family: $brand-font-italic;
+	}
+
+	h3 {
+		color: #541434;
+		font-size: 18px;
+		font-family: 'Times-italic';
+	}
+
+	p {
+		color: #58595B;
+		font-size: 14px;
+		font-family: 'Arial';
+
+	}
+
+	p,
+	h3,
+	h1,
+	.sub-content__top {
+		padding-left: 16px;
+		text-align: left;
+	}
+
+	
+	.cor-image {
+		border: 2px solid #58595B;
+		margin: 2em 0em;
+		-webkit-box-shadow: 0 1px 3px #000;
+		   -moz-box-shadow: 0 1px 3px #000;
+			 -o-box-shadow: 0 1px 3px #000;
+			-ms-box-shadow: 0 1px 3px #000;
+			    box-shadow: 0 1px 3px #000;
+	}
+}
+
+/********************
+CHAPEL OF REST TABLE
+********************/
+
+.table {
+	border: 2px solid #231F20;
+
+	.table__header {
+		margin: auto;
+		text-align: center;
+	}
+
+	p {
+		margin: 0.25em;
+	}
+}

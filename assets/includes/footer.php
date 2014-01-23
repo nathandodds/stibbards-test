@@ -15,7 +15,7 @@
 			<li class="footer-list__links"><a href="#">Horse drawn Funerals</a></li>
 			<li class="footer-list__links"><a href="#">Cremated Remains Containers</a></li>
 			<li class="footer-list__links"><a href="#">Memorial Jewelery</a></li>
-			<li class="footer-list__links"><a href="#">Chapel of Rest</a></li>
+			<li class="footer-list__links"><a href="<?php echo DIRECTORY;?>services/chapelofrest" <?php echo class_active('services/chapelofrest'); ?>>Chapel of Rest</a></li>
 			<li class="footer-list__links"><a href="#">Repatriation</a></li>
 		</ul>
 		<ul class="footer-list__untitled grid__fifth">

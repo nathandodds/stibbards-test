@@ -1,6 +1,6 @@
-<header class="header">
+<header class="header services-header">
 	<div class="header-text">
-		<p class="header-title_services">Services</p>
+		<p class="header-title header-title_services">Services</p>
 	</div>
 </header>
 <section class="content container">
@@ -38,7 +38,7 @@
 			</a>
 		</li>
 		<li class="grid__half">
-			<a href="#" class="content-link">
+			<a href="<?php echo DIRECTORY;?>services/chapelofrest" class="content-link">
 				<article class="services-content">
 					<img src="<?php echo DIRECTORY; ?>assets/images/chapel.png" class="content-image" />
 					<h2>Chapel of rest</h2>
