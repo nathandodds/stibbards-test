@@ -16,14 +16,14 @@
 		<h3>How to book your appointment</h3>
 		<p>Appointments for visits to the chapel of rest should be made through the office where the funeral has been arranged, during normal office hours.</p>
 		<p>Visits to the chapel of rest last for half an hour. If you feel that your family requires longer than this, please let us know when booking your visit. Families may arrange one half hour visit to the chapel of rest out outside of office hours per day. Each subsequent half hour will incur an additional £25 fee to cover staff attendance.</p>
-		<table class="table grid__three-quarter">
+		<table cellpadding="0" cellspacing="0" width="100%">
 			<thead>
 				<tr>
-					<th class="table__header">Appointment Hours</th>
+					<th class="table__header" colspan="2">Appointment Hours</th>
 				</tr>
 			</thead>
 			<tbody>
-				<tr class="table__row">
+				<tr>
 					<td class="table__day">
 						<p>Monday-Friday</p>
 					</td>
@@ -31,17 +31,17 @@
 						<p>10am-4.30pm</p>
 					</td>
 				</tr>
-				<tr class="table__row">
+				<tr>
 					<td class="table__day">
 						<p>Monday-Friday</p>
 						<p>(outside office hours)</p>
 					</td>
 					<td class="table__times">
 						<p>6pm-8pm</p>
-						<p>(limited availability)
+						<p>(limited availability)</p>
 					</td>
 				</tr>
-				<tr class="table__row">
+				<tr>
 					<td class="table__day">
 						<p>Saturday</p>
 					</td>
@@ -49,7 +49,7 @@
 						<p>10am-noon - 3pm or 4pm</p>
 					</td>
 				</tr>
-				<tr class="table__row">
+				<tr>
 					<td class="table__day">
 						<p>Sundays &amp; bank holidays</p>
 						<p>(excluding Christmas Day &amp; Boxing Day)</p>

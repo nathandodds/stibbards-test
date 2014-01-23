@@ -1,0 +1,48 @@
+/********************
+CHAPEL OF REST TABLE
+********************/
+
+table {
+	border: 1px solid #58595B;
+	margin-left: 1em;
+	margin-bottom: 7em;
+	margin-top: 2em;
+
+	@include border-radius(0.375em);
+
+	th {
+		color: #58595B;
+		font-family: 'Arial';
+		font-size: 14px;
+		letter-spacing: 2px;
+		padding: 0.5em;
+		text-transform: uppercase;
+		
+	}
+
+	td {
+		border-top: 1px solid #58595B;
+		padding: 0.5em;
+	}
+
+	.table__header {
+		margin: auto;
+		text-align: center;
+	}
+
+	p {
+		color: #58595B;
+		font-family: 'Arial';
+		font-size: 14px;
+		padding: 0em;
+		margin: 0.25em;
+	}
+
+	.table__day {
+		width: 70%;
+	}
+
+	.table__times {
+		width: 30%;
+	}
+}

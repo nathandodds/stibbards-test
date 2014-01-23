@@ -7,7 +7,8 @@ CTA  - INCLUDE AS IT IS USED IN MULITPLE PAGES
 	margin-top: 7em;
 	position: relative;
 	text-align: center;
-	padding: 0em 2em;	
+	padding: 0em 2em;
+	width: 100%;	
 
 	.top-text__top-service-cta {
 		color: #58595B;
@@ -17,7 +18,7 @@ CTA  - INCLUDE AS IT IS USED IN MULITPLE PAGES
 	}
 
 	&:before {
-		top: -90%;
+		top: -75px;
 		content: '';
 		display: block;
 		height: 52px;
@@ -26,7 +27,7 @@ CTA  - INCLUDE AS IT IS USED IN MULITPLE PAGES
 		margin-left: -24px;
 		width: 47px;
 	
-		@include sprite(0 -129px);
+		@include sprite(0 -129px); /*<--STIBBARDS LOGO*/
 	}
 
 	&:after {
@@ -39,7 +40,7 @@ CTA  - INCLUDE AS IT IS USED IN MULITPLE PAGES
 		margin-left: -139.5px;
 		width: 279px;
 	
-		@include sprite(-325px -321px);
+		@include sprite(-325px -321px); /*<--PAGE BREAK*/
 	}
 }
 

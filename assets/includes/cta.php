@@ -9,7 +9,7 @@
 				<article class="services-content__lower">
 					<img src="<?php echo DIRECTORY; ?>assets/images/music.png" class="content-image" />
 					<h2>Our brochure</h2>
-					<p>Our brochure will help guide you through the process of arranging a funeral.</p>
+					<p class="cta-text">Our brochure will help guide you through the process of arranging a funeral.</p>
 				</article>
 			</a>
 		</li>
@@ -18,7 +18,7 @@
 				<article class="services-content__lower">
 					<img src="<?php echo DIRECTORY; ?>assets/images/fees.png" class="content-image" />
 					<h2>professional fees</h2>
-					<p>Give yourself and your family peace of mind with a funeral plan that guarantees our services.</p>
+					<p class="cta-text">Give yourself and your family peace of mind with a funeral plan that guarantees our services.</p>
 				</article>
 			</a>
 		</li>

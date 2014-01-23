@@ -225,7 +225,8 @@ SUBPAGE CONTENT
 	h3 {
 		color: #541434;
 		font-size: 18px;
-		font-family: 'Times-italic';
+		font-family: 'Times';
+		font-style: italic;
 	}
 
 	p {
@@ -233,6 +234,20 @@ SUBPAGE CONTENT
 		font-size: 14px;
 		font-family: 'Arial';
 
+	}
+
+	.cta-text {   /*<--too remove unwanted styling to the include*/
+		text-align: center;
+		padding-left: 2em;
+	}
+
+	.top-text__service-cta p {  /*<--too remove unwanted styling to the include*/
+		text-align: center;
+		padding-left: 0em;
+	}
+
+	.top-text__service-cta {   /*<--too remove unwanted styling to the include*/
+		padding: 0em;
 	}
 
 	p,
@@ -245,29 +260,12 @@ SUBPAGE CONTENT
 
 	
 	.cor-image {
-		border: 2px solid #58595B;
+		border: 1.5px solid #58595B;
 		margin: 2em 0em;
-		-webkit-box-shadow: 0 1px 3px #000;
-		   -moz-box-shadow: 0 1px 3px #000;
-			 -o-box-shadow: 0 1px 3px #000;
-			-ms-box-shadow: 0 1px 3px #000;
-			    box-shadow: 0 1px 3px #000;
-	}
-}
-
-/********************
-CHAPEL OF REST TABLE
-********************/
-
-.table {
-	border: 2px solid #231F20;
-
-	.table__header {
-		margin: auto;
-		text-align: center;
-	}
-
-	p {
-		margin: 0.25em;
+		-webkit-box-shadow: 0 2px 3px #000;
+		   -moz-box-shadow: 0 2px 3px #000;
+			 -o-box-shadow: 0 2px 3px #000;
+			-ms-box-shadow: 0 2px 3px #000;
+			    box-shadow: 0 2px 3px #000;
 	}
 }
