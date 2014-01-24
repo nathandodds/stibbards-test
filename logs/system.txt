@@ -110,3 +110,7 @@
 24-01-2014 13:48:48 Core/Routing/Router: Threw exception: Could not find controller "www.stormcreative.com" to load
 24-01-2014 13:49:12 Core/Routing/Router: Threw exception: Could not find controller "www.stormcreative.com" to load
 24-01-2014 13:50:00 Core/Routing/Router: Threw exception: Could not find controller "www.stormcreative.com" to load
+24-01-2014 17:24:23 Core/Routing/Router: Threw exception: Could not find controller "assets" to load
+24-01-2014 17:24:28 Core/Routing/Router: Threw exception: Could not find controller "assets" to load
+24-01-2014 17:24:50 Core/Routing/Router: Threw exception: Could not find controller "assets" to load
+24-01-2014 17:25:21 Core/Routing/Router: Threw exception: Could not find controller "assets" to load

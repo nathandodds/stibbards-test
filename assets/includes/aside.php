@@ -1,7 +1,7 @@
 <aside class="aside grid__quarter">
 	<ul class="aside__list">
 		<li class="aside__list--link">
-			<a href="<?php echo DIRECTORY;?>services"?><h2>Services</h2></a>
+			<a href="<?php echo DIRECTORY;?>services"><h2>Services</h2></a>
 		</li>
 		<li class="aside__list--link">
 			<a href="#">Coffins and caskets</a>

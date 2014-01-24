@@ -4,7 +4,7 @@
 			<li class="footer-list__title">Home</li>
 			<li class="footer-list__links"><a href="#">Five Generation</a></li>
 			<li class="footer-list__links"><a href="#">What to do next</a></li>
-			<li class="footer-list__links"><a href="#">Funeral Plans</a></li>
+			<li class="footer-list__links"><a href="<?php echo DIRECTORY;?>plans" <?php echo class_active('plans'); ?>>Funeral Plans</a></li>
 			<li class="footer-list__links"><a href="#">Bereavement service</a></li>
 			<li class="footer-list__links"><a href="#">Contact</a></li>
 		</ul>
@@ -59,6 +59,6 @@
 		<a href="<?php echo DIRECTORY;?>" class="footer-image__ndc">The Natural Death Centre</p></a>
 	</div>
 	<div class="storm-logo container">
-		<a href="http://www.stormcreative.co.uk"><p class="storm-logo-img">Storm Creative</p></a>
+		<a href="http://www.stormcreative.co.uk" target="_blank"><p class="storm-logo-img">Storm Creative</p></a>
 	</div>
 </footer>

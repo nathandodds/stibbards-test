@@ -1,14 +1,50 @@
-/**************
-*****ASIDE*****
-***************/
+/*
+
+ASIDE
+
+This is how we should comment to show all of our styledocco examples. We have to make sure we include our HTML version into here, 
+making sure that it is indented correctly otherwise it will not work properly.
+
+	<aside class="aside grid__quarter">
+		<ul class="aside__list">
+			<li class="aside__list--link">
+				<a href="#"><h2>Services</h2></a>
+			</li>
+			<li class="aside__list--link">
+				<a href="#">Coffins and caskets</a>
+			</li>
+			<li class="aside__list--link">
+				<a href="#">Funeral Vehicles</a>
+			</li>
+			<li class="aside__list--link">
+				<a href="#" class="active">Horse drawn funerals</a>
+			</li>
+			<li class="aside__list--link">
+				<a href="#">Cremated Remains containers</a>
+			</li>
+			<li class="aside__list--link">
+				<a href="#">Memorial Jewelery</a>
+			</li>
+		</ul>
+	</aside>
+
+*/
+
+.test {
+	background: red;
+}
+
+/*
+
+	<div class="test">Hi</div>
+
+*/
+
 .aside {
 	margin-top: 65px;
 	
 
-	
-	/***************
-	LIST OF PAGES UL
-	****************/
+
 
     .aside__list {
     	border: 1px solid #58595B;
@@ -42,9 +78,7 @@
 		}
     }
 
-    /*********
-    PAGES LIST
-	**********/
+    
 
     .aside__list--link {
 		list-style: none;

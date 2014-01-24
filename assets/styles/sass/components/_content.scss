@@ -206,7 +206,8 @@ SMALLER CONTENT BOXES ON THE SERVICES PAGE
 /*******************
 SUBPAGE CONTENT
 ********************/
-
+.sub-content__plans-top,
+.sub-content__plans,
 .sub-content {
 	margin-top: 4em;
 
@@ -260,7 +261,6 @@ SUBPAGE CONTENT
 		text-align: left;
 	}
 
-	
 	.cor-image {
 		margin: 2em 0;
 
@@ -271,6 +271,7 @@ SUBPAGE CONTENT
 			    box-shadow: 3px 3px 3px #ccc;
 	}
 }
+
 
 /***************************
 HORSE DRAWN FUNERAL CONTENT
@@ -320,5 +321,111 @@ HORSE DRAWN FUNERAL CONTENT
 		padding-right: 1em;
 		margin-top: 10px;
 
+	}
+}
+
+/*******************
+FUNERAL PLANS PAGE
+********************/
+
+.plans-content {
+	padding-top: 5em;
+	text-align: center;
+
+	.plans-content__top {
+		h1 {
+			color: #541434;
+			font-size: 29px;
+			font-family: 'Times';
+			text-transform: uppercase;
+		}
+
+		p {
+			color: #58595B;
+			font-size: 20px;
+			font-family: $brand-font-italic;
+			margin: 0.5em 0 1em 0;
+		}
+	}
+
+	.plan-content__text {
+		padding: 0em 1.25em;
+
+		h2 {
+			color: #541434;
+			font-family: 'Times';
+			font-style: italic;
+			font-size: 18px;
+			margin: 1.25em 0;
+		}
+
+		p {
+			color: #58595B;
+			font-family: 'Arial';
+			font-size: 14px;
+			margin: 0.25em 0em;
+
+		}
+	}
+}
+
+.plans-image {
+	height: 443px;
+	margin-top: 2em;
+	width: 666px;
+		-webkit-box-shadow: 3px 3px 3px #ccc;
+		   -moz-box-shadow: 3px 3px 3px #ccc;
+			 -o-box-shadow: 3px 3px 3px #ccc;
+			-ms-box-shadow: 3px 3px 3px #ccc;
+			    box-shadow: 3px 3px 3px #ccc;
+}
+
+.plan-content__opitions {
+	margin: 1em 0 8em 0;
+	text-align: left;
+
+	h3 {
+		color: #541434;
+		font-size: 20px;
+		font-family: 'Times';
+		font-style: italic;
+		margin: 1.5em 0 0.25em 0;
+	}
+
+	.opition__price {
+		color: #333333;
+		font-family: 'Times';
+		font-style: italic;
+		font-size: 17px; 
+	}
+
+	p {
+		font-family: 'Arial';
+		font-size: 14px;
+		margin: 0;
+	}
+
+	ul {
+		border-left: 3px solid #541434;
+		-webkit-box-shadow: 2px 3px 13px #ccc;
+		   -moz-box-shadow: 2px 3px 13px #ccc;
+			 -o-box-shadow: 2px 3px 13px #ccc;
+			-ms-box-shadow: 2px 3px 13px #ccc;
+			    box-shadow: 2px 3px 13px #ccc;
+	}
+
+	li {
+		color: #333333;
+		font-family: 'Arial';
+		font-size: 14px;
+		padding: 0.25em;
+
+		&:first-child {
+			padding-top: 1em;
+		}
+
+		&:last-child {
+			padding-bottom: 1em;
+		}
 	}
 }
