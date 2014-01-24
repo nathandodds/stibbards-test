@@ -20,7 +20,7 @@
 			</a>
 		</li>
 		<li class="grid__half">
-			<a href="#" class="content-link">
+			<a href="<?php echo DIRECTORY;?>services/horsedrawn" class="content-link">
 				<article class="services-content">
 					<img src="<?php echo DIRECTORY; ?>assets/images/horse-drawn.png" class="content-image" />
 					<h2>Horse Drawn Funerals</h2>

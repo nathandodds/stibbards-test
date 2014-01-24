@@ -26,7 +26,6 @@ TEXT AT THE TOP OF THE HOME PAGE
 		left: 50%;
 		margin-left: -24px;
 		position: absolute;
-		
 		top: 56px;
 		width: 47px;
 	
@@ -51,12 +50,13 @@ TEXT AT THE TOP OF SERVICES PAGE
 	}
 
 	&:before {
-		bottom: 140%;
+		bottom: 120px;
 		content: '';
 		display: block;
+		left: 50%;
+		margin-left: -24px;
 		height: 52px;
 		position: absolute;
-		right: 48%;
 		width: 47px;
 	
 		@include sprite(-270px -320px);
@@ -70,22 +70,23 @@ ALL BOXED CONTENT
 .services-content,
 .home-content {
 	background: #fff;
-	border: 0.5px solid #58595B;
+	border: 1px solid #58595B;
 	border-top: 0;
 	height: 410px;
 	margin: 0.25em 0;
 
-	-webkit-box-shadow: 0 1px 3px #000;
-	   -moz-box-shadow: 0 1px 3px #000;
-		 -o-box-shadow: 0 1px 3px #000;
-		-ms-box-shadow: 0 1px 3px #000;
-		    box-shadow: 0 1px 3px #000;
+	-webkit-box-shadow: 3px 3px 3px #ccc;
+	   -moz-box-shadow: 3px 3px 3px #ccc;
+		 -o-box-shadow: 3px 3px 3px #ccc;
+		-ms-box-shadow: 3px 3px 3px #ccc;
+		    box-shadow: 3px 3px 3px #ccc;
 
 	h2 {
 		color: #231F20;
 		font-family: $brand-font;
-		font-size: 20px;		
-		margin-top: 0.25em;		
+		font-size: 20px;
+		margin-bottom: 0;	
+		margin-top: 0.25em;	
 		text-transform: uppercase;
 	}
 
@@ -94,7 +95,7 @@ ALL BOXED CONTENT
 		font-family: $brand-font;
 		font-size: 14px;
 		margin-bottom: 1em;
-		margin-top: -1em;
+		margin-top: 0;
 		padding: 0 3em;
 		
 	}
@@ -116,9 +117,9 @@ ALL BOXED CONTENT
 		}
 	}
 
-/**************************
-ALL BOXED IMAGES HAVE A BOTTOM BORDER
-***************************/
+	/**************************
+	ALL BOXED IMAGES HAVE A BOTTOM BORDER
+	***************************/
 
 	img {
 		border: none;
@@ -236,18 +237,19 @@ SUBPAGE CONTENT
 
 	}
 
-	.cta-text {   /*<--too remove unwanted styling to the include*/
+	/* too remove unwanted styling to the include */
+	.cta-text {   
 		text-align: center;
 		padding-left: 2em;
 	}
 
 	.top-text__service-cta p {  /*<--too remove unwanted styling to the include*/
 		text-align: center;
-		padding-left: 0em;
+		padding-left: 0;
 	}
 
 	.top-text__service-cta {   /*<--too remove unwanted styling to the include*/
-		padding: 0em;
+		padding: 0;
 	}
 
 	p,
@@ -260,12 +262,63 @@ SUBPAGE CONTENT
 
 	
 	.cor-image {
-		border: 1.5px solid #58595B;
-		margin: 2em 0em;
-		-webkit-box-shadow: 0 2px 3px #000;
-		   -moz-box-shadow: 0 2px 3px #000;
-			 -o-box-shadow: 0 2px 3px #000;
-			-ms-box-shadow: 0 2px 3px #000;
-			    box-shadow: 0 2px 3px #000;
+		margin: 2em 0;
+
+		-webkit-box-shadow: 3px 3px 3px #ccc;
+		   -moz-box-shadow: 3px 3px 3px #ccc;
+			 -o-box-shadow: 3px 3px 3px #ccc;
+			-ms-box-shadow: 3px 3px 3px #ccc;
+			    box-shadow: 3px 3px 3px #ccc;
+	}
+}
+
+/***************************
+HORSE DRAWN FUNERAL CONTENT
+****************************/
+
+.horse-opitions {
+	padding-left: 1em;
+	margin-top: 40px;
+}
+
+.sub-boxes {
+	background: #fff;
+	height: 146px;
+		-webkit-box-shadow: 3px 3px 3px #ccc;
+		   -moz-box-shadow: 3px 3px 3px #ccc;
+			 -o-box-shadow: 3px 3px 3px #ccc;
+			-ms-box-shadow: 3px 3px 3px #ccc;
+			    box-shadow: 3px 3px 3px #ccc;
+
+	img {
+		float: left;
+		padding-right: 1em;
+		overflow: hidden;
+	}
+
+	h2 {
+		color: #541434;
+		font-family: 'Times';
+		font-size: 18px;
+		padding-top: 0.5em;
+		margin-bottom: 0;
+		text-align: left !important;
+	}
+
+	.horse-prices {
+		color: #58595B;
+		font-family: 'Times';
+		font-size: 16px;
+		font-style: italic;
+		margin: 0;
+	}
+
+	.hearse-info {
+		color: #58595B;
+		font-family: 'Arial';
+		font-size: 15px;
+		padding-right: 1em;
+		margin-top: 10px;
+
 	}
 }

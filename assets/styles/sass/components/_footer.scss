@@ -11,9 +11,9 @@ FOOTER IS APPLYED TO ALL PAGES
 		background-size: 26px 8px;
 	}
 
-/*****************************
-BIGGER LIST TITLES E.G HOME
-******************************/
+	/*****************************
+	BIGGER LIST TITLES E.G HOME
+	******************************/
 
 	.footer-list__title {
 		color: #541434;
@@ -27,9 +27,9 @@ BIGGER LIST TITLES E.G HOME
 		padding: 0 1em 0 1em;
 	}
 
-/********************************************
-LI'S WITHOUT A TITLE NEEDED TO BE PUSHED DOWN
-*********************************************/
+	/********************************************
+	LI'S WITHOUT A TITLE NEEDED TO BE PUSHED DOWN
+	*********************************************/
 
 	.footer-list__untitled {
 		padding-top: 1.6em !important;
@@ -114,21 +114,21 @@ STORM CREATIVE LOGO
 *********************/
 
 .storm-logo-img {
-		display: block;
-		float: right;
-		height: 17px;
-		margin: 2.5em 1.5em;
-		vertical-align: middle;
-		width: 255px;		
-		@include img-replace;
+	display: block;
+	float: right;
+	height: 17px;
+	margin: 2.5em 1.5em;
+	vertical-align: middle;
+	width: 255px;		
+	@include img-replace;
 
-		@include sprite (-0px -323px);
+	@include sprite (-0px -323px);
 
-		&:hover,
-		&:focus {
-			@include sprite (-0px -349px);
-		}
+	&:hover,
+	&:focus {
+		@include sprite (-0px -349px);
 	}
+}
 
 
 	

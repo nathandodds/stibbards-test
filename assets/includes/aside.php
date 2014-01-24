@@ -10,7 +10,7 @@
 			<a href="#">Funeral Vehicles</a>
 		</li>
 		<li class="aside__list--link">
-			<a href="#">Horse drawn funerals</a>
+			<a href="<?php echo DIRECTORY;?>services/horsedrawn" <?php echo class_active('services/horsedrawn'); ?>>Horse drawn funerals</a>
 		</li>
 		<li class="aside__list--link">
 			<a href="#">Cremated Remains containers</a>

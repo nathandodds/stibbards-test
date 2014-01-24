@@ -1,7 +1,7 @@
 <header class="homepage-header">
-	<div class="header-text">
-		<p class="header-title">Five generations of</p>
-		<p class="header-title">celebrating life</p>
+	<div class=" header-text">
+		<p class="header-title__home">Five generations of</p>
+		<p class="header-title__home">celebrating life</p>
 	</div>
 </header>
 	<section class="content container">
@@ -17,7 +17,7 @@
 				<img src="<?php echo DIRECTORY; ?>assets/images/services-image.png" class="content-image" />
 				<h2>Services</h2>
 				<p>We can help arrange every aspect of your loved one’s funeral – from the essential details all the way through to unique, personal tributes.</p>
-				<a href="#">View all our services</a>
+				<a href="<?php echo DIRECTORY;?>services">View all our services</a>
 			</article>
 		</li>
 		<li class="grid__third">

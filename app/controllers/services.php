@@ -22,5 +22,16 @@
 
             $this->setView('services/chapelofrest');
         } 
+
+         public function horsedrawn() {
+
+            $this->addTag ('title', 'Horse Drawn Funerals');
+            $this->addTag ( 'meta_keywords', 'Pegisis');
+            $this->addTag ( 'meta_desc', 'Pegisis');
+
+            $this->addStyle('layout');
+
+            $this->setView('services/horsedrawn');
+        } 
     }
   ?>

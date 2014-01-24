@@ -5,12 +5,13 @@ HEADER IS THE SAME THROUGH OUT BUT IMAGES JUST NEEDS CHANGING
 .homepage-header {
 	background: url("../images/header-bg2.png") center 0 no-repeat;
 	height: 480px;
-	line-height: 480px;
 	margin: auto;
+	line-height: 511px;
 	position: relative;
+	text-align: center;
 	
 	 &:before {
-		background: url("../images/header-ribbons.png") center 0 no-repeat;
+		background: url("../images/home-ribbons.png") center 0 no-repeat;
 		bottom: 0;
 		content: '';
 		display: block;
@@ -25,12 +26,10 @@ HEADER IS THE SAME THROUGH OUT BUT IMAGES JUST NEEDS CHANGING
 /********************************
 HEADERS - GENERIC
 ********************************/
-
 .header {
 	height: 257px;
 	line-height: 200px;
 	width: 100%;
-	margin: auto;
 	position: relative;
 	text-align: center;
 
@@ -49,12 +48,12 @@ HEADERS - GENERIC
 /********************************
 TEXT IN THE CENTRE OF THE HEADER
 ********************************/
-
 .header-text {
 	display: inline-block;
 	line-height: normal;
 	text-align: center;
 	width: 700px;
+	margin: auto;
 	//vertical-align: middle;
 	//width: 100%;
 
@@ -67,7 +66,7 @@ TEXT IN THE CENTRE OF THE HEADER
 		text-align: center;
 		vertical-align: middle;
 	}
-
+	.header-title__home,
 	.header-title {
 		background: url(../images/bg-transparent.png) 0 0 repeat;
 		color: #541334;
@@ -78,9 +77,12 @@ TEXT IN THE CENTRE OF THE HEADER
 		margin: 0;
 		margin: auto;
 		text-transform: uppercase;
-		vertical-align: middle;		
-		
+		vertical-align: middle;	
+	
 	}
+
+	
+
 
 	/*************************************
 		TITLE OF THE SUBPAGE PARENT PAGE
@@ -102,6 +104,13 @@ TEXT IN THE CENTRE OF THE HEADER
 	.header-title_services {		
 		width: 376px;
 	}
+
+	/******************
+	HORSE DRAWN HEADER
+	*******************/
+	.header-title__horse {		
+		width: 757px;
+	}
 }
 
 /**************************************
@@ -120,6 +129,16 @@ IMAGE CHANGES FOR THE SUBPAGES HEADERS
 	.header-title {
 		margin-top: 3px;
 		width: 520px;
+	}
+}
+
+.horse-header {
+	background: url("../images/horse-header.jpg") center 0 no-repeat;
+	line-height: 225px;
+
+	.header-title {
+		margin-top: 3px;
+		width: 755px;
 	}
 }
 

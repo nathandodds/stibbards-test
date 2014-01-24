@@ -45,4 +45,29 @@ table {
 	.table__times {
 		width: 30%;
 	}
+
+	/*********************
+	HORSE DRAWN TABLE
+	**********************/
+	.table__text p {
+		text-align: center;
+	}
+
+	.table__text--top {
+		font-size: 15px;
+		font-family: 'Arial';
+	}
+
+	.table__text--bottom {
+		color: #58595B;
+		font-size: 16px;
+		font-family: 'Times';
+		font-style: italic;
+		text-decoration: none;
+	}
+}
+
+.horse-table {
+	margin-top: 3em;
+	margin-right: 1em;
 }

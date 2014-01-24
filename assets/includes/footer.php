@@ -12,7 +12,7 @@
 			<li class="footer-list__title">Services</li>
 			<li class="footer-list__links"><a href="#">Coffins and Caskets</a></li>
 			<li class="footer-list__links"><a href="#">Funeral Vehicles</a></li>
-			<li class="footer-list__links"><a href="#">Horse drawn Funerals</a></li>
+			<li class="footer-list__links"><a href="<?php echo DIRECTORY;?>services/horsedrawn" <?php echo class_active('services/horsedrawn'); ?>>Horse drawn Funerals</a></li>
 			<li class="footer-list__links"><a href="#">Cremated Remains Containers</a></li>
 			<li class="footer-list__links"><a href="#">Memorial Jewelery</a></li>
 			<li class="footer-list__links"><a href="<?php echo DIRECTORY;?>services/chapelofrest" <?php echo class_active('services/chapelofrest'); ?>>Chapel of Rest</a></li>
@@ -59,6 +59,6 @@
 		<a href="<?php echo DIRECTORY;?>" class="footer-image__ndc">The Natural Death Centre</p></a>
 	</div>
 	<div class="storm-logo container">
-		<a href="<?php echo DIRECTORY;?>"><p class="storm-logo-img">Storm Creative</p></a>
+		<a href="http://www.stormcreative.co.uk"><p class="storm-logo-img">Storm Creative</p></a>
 	</div>
 </footer>
